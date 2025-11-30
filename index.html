@@ -1,28 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>josh's website</title>
-  </head>
-  <body>
-    <header>
-      <h1>Joshs Projects</h1>
-    </header>
-    <main>
-      <aside>
-        <!-- Left sidebar -->
-      </aside>
-      <section>
-        <!-- Koala facts (header and paragraphs)-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kn — About Me</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url("blue-background.png");
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
 
-        <article>
-            <a href="https://codec-io.github.io/ss-plumbing-nyc/" >
-            <h3>ss-plumbing-nyc</h3>
-            </a>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <!-- Image citations -->
-    </footer>
-  </body>
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+            margin-bottom: 25px;
+            text-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+        }
+
+        .container {
+            max-width: 450px;
+            padding: 25px;
+            border: 2px solid white;
+            border-radius: 12px;
+            backdrop-filter: blur(4px);
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 25px;
+            color: white;
+            font-size: 16px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 14px;
+            border: 2px solid white;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: white;
+            color: #000000;
+            transition: 0.2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>Joshua’s Projects</h1>
+
+    <div class="container">
+        <p>
+            I’m a creator from Brooklyn focused on front-end web development and AI-driven 
+            graphic design. I build clean, simple websites using HTML, CSS, and JavaScript, 
+            and I also design visuals through CGI and AI — including logos, packaging, 
+            characters, and brand concepts. My work combines code and creativity to turn 
+            ideas into modern, high-quality designs.
+        </p>
+
+        <a href="https://codec-io.github.io/jshmint/">Visit My Site</a>
+    </div>
+
+</body>
 </html>
